@@ -1,0 +1,347 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin: 0 auto;
+}
+
+wrapper {
+    width: 1500px;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1267px;
+    margin: 0 auto;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%; 
+    height: auto;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3,
+.product-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h5 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 13px;
+    border: 1px solid transparent;  
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    border: 1px solid #2203E4;  
+}
+
+.menu li:hover a {
+    color:#2203E4;
+}
+
+.bg_iphone_13 {
+    background-image: url("../images/iphone_13.png");
+    padding: 140px 0;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.btn-blue {
+    background-color: #0062FF; 
+    color: #FFFFFF;
+    border: 1px solid #0062FF ;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: inline-block;
+    margin: 20px 10px 20px 0;
+}
+
+.btn-blue:hover { 
+    color: #575757;
+    border: 1px solid #575757;
+    background-color: #FFFFFF;
+}
+
+.bg-blue {
+    background-color: #0062FF;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.who-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.who-list li {
+    width: calc(50% - 10px);
+    text-align: left;
+    padding: 0 10px 10px 0;
+}
+
+.who-list li .img-holder {
+    width: 122px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-blue {
+    color: #2203E4;
+}
+
+video {
+    width: 100%;
+    height: auto; 
+}
+
+.check-demo .video-holder {
+    width: 444px;
+    float: right;
+}
+
+.check-demo .content {
+    width: calc(100% - 470px);
+    float: left;
+}
+
+.instruction {
+    padding: 50px 0;
+}
+
+.instruction .content p {
+    margin: 10px 0 20px 0;
+}
+
+.bg-yellow {
+    background-color: #FFBE0B;
+}
+
+.bg-white {
+    background-color: #F3F3F3;
+}
+
+.opinion-item {
+    width: 702px;
+    margin: 30px auto;
+    padding: 40px 30px 40px 70px;
+    text-align: left;
+    border-radius: 12px;
+    position: relative;
+}
+
+.opinion-item::before {
+    content: "";
+    width: 47px;
+    height: 41px;
+    background-image: url('../images/cloud.png');
+    display: block;
+    position: absolute;
+    top: calc(50% - 23px);
+    left: 15px;
+  }
+
+  .opinion-item h5 {
+    margin-bottom: 15px;
+  }
+
+ .bg-white {
+    background-color: #FFFFFF;
+    width: 1267px;
+    margin: 0 auto;
+ } 
+
+
+.profile-list li .profile-photo {
+    width: 150px;
+    float: left;
+    margin-right: 34px;
+}
+
+.title {
+    width: 611px;
+    margin: 0 auto 41px;
+}
+
+.profile-social li  {
+    width: 22px;
+    display: inline-block;
+    margin: 0 19px 0 0;
+}
+
+.profile-social li a {
+    width: 100%;
+    display: inline-block;
+}
+
+.icon {
+    height: 21px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icon-facebook {
+    background-image: url('../images/facebook.png');
+    height: 30px;
+}
+
+.icon-instagram {
+    background-image: url('../images/instagram.png');
+}
+
+.icon-linkedin {
+    background-image: url('../images/linkedin.png');
+}
+
+.profile-social {
+    margin: 24px 0 0 0;
+}
+
+/* .accent {
+    color: #FFBE0B;
+} */
+
+.profile-nav li:not(.active) h4,
+.profile-nav li:not(.active) h5 {
+    color: #FFBE0B;
+}
+
+.profile-nav li:not(.active) h4 {
+    font-size: 21px;
+    font-weight: 500px;
+}
+
+.profile-nav li:not(.active) h5 {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.profile-nav .active::before {
+    content: "";
+    height: 18px;
+    width: 11px;
+    display: inline-block;
+    background-image: url('../images/arrow-left.png');
+    position: absolute;
+    left: -5px;
+    top: calc(50% - 9px);
+  }
+
+  .profile-nav li {
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .profile-nav {
+    width: 237px;
+  }
+
+.profile-list {
+    width: calc(100% - 349px);
+}
+
+.authors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-product .img-holder {
+    width: 325px;
+}
+
+.my-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse
+}
+
+.my-product .content {
+    width: calc(100% - 330px);
+}
+
+#email {
+    color: #2203E4;
+    background-color: #d8e7ff;
+    width: 100%;
+    padding: 25px 24px;
+    border: none;
+    border-radius: 12px;
+}
+
+.input-holder {
+    margin: 28px 0 0 0;
+}
+
+#email::placeholder {
+    color: #2203E4;
+}
+
+.subscription {
+    width: 508px;
+    margin: 0 auto;
+}
+
+.subscription button {
+    width: 100%;
+}
