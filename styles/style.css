@@ -6,7 +6,8 @@ body {
 }
 
 wrapper {
-    width: 1500px;
+    max-width: 1500px;
+    min-width: 375px;
     display: block;
     margin: 0 auto;
 }
@@ -18,8 +19,9 @@ header {
 }
 
 .container {
-    width: 1267px;
+    max-width: 1267px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 input {
@@ -86,10 +88,11 @@ p {
 }
 
 .bg_iphone_13 {
-    background-image: url("../images/iphone_13.png");
+    background-image: url(../images/iphone_13.png);
     padding: 140px 0;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position-x: calc(100% - 20px);
+    background-position-y: center;
 }
 
 .btn-blue {
@@ -207,7 +210,7 @@ video {
 
  .bg-white {
     background-color: #FFFFFF;
-    width: 1267px;
+    max-width: 1267px;
     margin: 0 auto;
  } 
 
@@ -219,7 +222,7 @@ video {
 }
 
 .title {
-    width: 611px;
+    max-width: 611px;
     margin: 0 auto 41px;
 }
 
@@ -268,12 +271,12 @@ video {
 
 .profile-nav li:not(.active) h4 {
     font-size: 21px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .profile-nav li:not(.active) h5 {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .profile-nav .active::before {
